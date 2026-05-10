@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTO - Como conseguir sua primeira vaga em dados sem experiência</title>
+  <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+  <style>
+    :root {
+      --black: #0a0a0a;
+      --white: #f5f5f5;
+      --blue: #2563eb;
+      --muted: #a3a3a3;
+      --line: #262626;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--black);
+      color: var(--white);
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      width: min(100% - 32px, 760px);
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      width: 52px;
+      height: 52px;
+    }
+
+    .logo img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .back,
+    .eyebrow {
+      color: var(--blue);
+    }
+
+    .back {
+      font-weight: 700;
+    }
+
+    .back:focus,
+    .back:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    article {
+      padding-top: 56px;
+    }
+
+    .eyebrow {
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 16px 0 16px;
+      font-size: clamp(2.25rem, 7vw, 4.75rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      margin: 0 0 40px;
+      color: var(--muted);
+    }
+
+    h2 {
+      margin: 40px 0 12px;
+      font-size: 1.45rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #d4d4d4;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .page {
+        padding-top: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <a class="logo" href="../index.html" aria-label="ALTO home">
+        <img src="../logo.png" alt="ALTO">
+      </a>
+      <a class="back" href="../index.html">Home</a>
+    </header>
+
+    <article>
+      <h1>2. O que preciso saber pra começar na área de dados?</h1>
+      <p class="meta">O que estudar. Sem enrolação.</p>
+
+      <p>
+        Resumo: SQL e Inglês. Nessa ordem.<br>
+        Há outras ferramentas bem importantes pra se aprender também, mas aí vai depender de qual área de dados você quer seguir - mas SQL e inglês são fundamentais pra qualquer uma das três áreas. Além dessas duas skills, aqui vão outras importantes pra chegar em entrevistas sabendo:<br>
+        - Análise de dados: saber fazer dashboards, Excel básico, estatística básica e storytelling.<br>
+        - Ciência de dados: conceitos de machine learning e Python.<br>
+        - Engenharia de dados: Python, Spark e Airflow.<br>
+        <br>
+        Bora falar de SQL, inglês e depois de cada uma das 3 áreas de dados em detalhes.
+      </p>
+
+      <h2>SQL</h2>
+      <p>
+        SQL é a ferramenta utilizada pra puxar os dados de bancos de dados. Ou seja: sem SQL não tem como trabalhar (vai fazer o quê sem os dados?). Você vai utilizar SQL praticamente todo dia. Inclusive, conheço times que utilizam SQL diariamente mesmo não sendo de dados. São times bem interessantes, inclusive.<br>
+        Good news: é uma linguagem super fácil de aprender. Há muitos recursos gratuitos e bons na internet.<br>
+        <br>
+        Aqui minha recomendação de como aprender SQL rápido: <u><a href="https://www.hackerrank.com/domains/sql">HackerRank</a></u> e ChatGPT<br>
+        HackerRank é uma plataforma que você aprender a programar resolvendo desafios. É gamificado, então você pode compartilhar sua pontuação do HackerRank no seu currículo e LinkedIn, e é de graça. Bem legal! Aprendi bastante com o HackerRank. E eu usaria o ChatGPT pra ajudar no processo.
+      </p>
+
+      <h2>Inglês</h2>
+      <p>
+        Tema complexo. Acho muito difícil chegar longe se não for em inglês. É possível entrar no mercado sem saber, mas você vai fechar muitas portas. Muitas. Conheço empresas com operação 100% nacional que exigem inglês. Acredito que se você for seguindo sua carreira sem inglês, em algum momento você vai encontrar um teto.<br>
+        Infelizmente, eu acho que não é tão simples aprender esse idioma como é aprender SQL. Mas dá. E tem muita coisa boa e gratuita na internet pra te ajudar.
+      </p>
+
+      <h2>Análise de dados</h2>
+      <p>
+        Acho que, dos 3 campos, a análise de dados é a que mais se comunica com os times de business. Por isso, é importante saber se comunicar bem: dashboards que resolvem problemas, planilhas claras, slides com insights, etc.<br>
+        Aqui, eu acho que experiência conta muito - é difícil adquirir esse conhecimento de negócio e comunicação com cursos. Por isso acho importante que você se exponha bastante a projetos de análise de dados, pra poder adquirir essas habilidades. Pra não falar que não recomendei nada: gosto muito do livro <u><a href="https://www.amazon.com/Storytelling-Visualizacao-Profissionais-Negocios-Portugues/dp/8550804681">Storytelling with Data, da Cole Nussbaumer Knaflic</a></u>. Recomendação canônica quando o assunto é fazer visualizações que trazem bons insights.
+      </p>
+
+      <h2>Ciência de dados</h2>
+      <p>
+        Uma área bem mais técnica que a análise de dados - por isso vai ter muito mais curso bom disponível por aí pra aprender sobre. E também muitas IAs já sabem te dar uma base excelente pra esse campo.<br>
+        Pra ciência de dados, você precisa aprender a construir modelos preditivos. Pra isso, você precisa de uma base conceitual boa de Machine Learning e saber materializar isso usando Python. O curso <u><a href="https://www.coursera.org/learn/machine-learning">Machine Learning, do Andrew Ng</a></u> é um clássico pra aprender os conceitos de ML - ele é mais teórico, mas é uma base muito boa -, e o livro <u><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646">Hands-on Machine Learning, do Aurélien Géron</a></u>, bem mais prático. Esses 2 juntos formam uma boa dupla pra começar na área. 
+      </p>
+
+      <h2>Engenharia de dados</h2>
+      <p>
+        A engenharia de dados é a área mais técnica das 3, e é a que tem menos conteúdo gratuito de qualidade disponível. Mas, felizmente, as IAs já sabem te dar uma base excelente pra aprender sobre isso também.<br>
+        Pra engenharia de dados, você precisa aprender a construir pipelines de dados. Pra isso, você precisa saber programar em Python e conhecer ferramentas como Spark e Airflow. São ferramentas que não são simples de se trabalhar, então vale a pena procurar recursos bons pra aprender sobre elas. Eu não tenho muito domínio sobre, mas com certeza tem muita gente boa falando sobre isso na internet - só caçar.
+      </p>
+
+    </article>
+
+    <footer>
+      ALTO está sendo construída por <u><strong><a href="https://www.linkedin.com/in/bruno-kenzo/">Bruno Kenzo</a></strong></u>. Venha fazer parte.
+    </footer>
+  </main>
+</body>
+</html>
